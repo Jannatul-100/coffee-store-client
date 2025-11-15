@@ -7,7 +7,7 @@ const ViewCoffee = () => {
     const {name, chef, supplier, taste, category, details, price, photo} = coffee;    
 
     return (
-        <div className="card md:card-side shadow-sm bg-[#F4F3F0] p-20 mx-6 md:mx-32 my-16">
+        <div className="card md:card-side shadow-sm bg-[#F4F3F0] p-8 md:p-20 mx-6 md:mx-32 my-16">
             <figure className='w-1/2'>
                 <img
                 className='w-full object-cover'
