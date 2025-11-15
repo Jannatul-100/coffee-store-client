@@ -12,9 +12,11 @@ function App() {
 
   return (
     <div>
+
       <Headers></Headers>
       <Outlet></Outlet>
       <Footer></Footer>
+      
     </div>
   )
 }
